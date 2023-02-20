@@ -1,13 +1,13 @@
 
 :root {
-    --left-bg-color: rgba(255, 255, 255, 0.5);
-    --right-bg-color: rgba(255, 255, 255, 0.5);
+    --left-bg-color: rgba(137, 137, 137, 0.5);
+    --right-bg-color: rgba(255, 152, 152, 0.5);
 
 
 }
 
 *{
-    box-sizing: border-boxs;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-
+    
 }
 
 .main {
@@ -26,11 +26,13 @@ body {
 }
 
 .split.left {
+    width: 50%;
     left: 0;
+    height: 100vh;
     background: url();
     background-repeat: no-repeat;
     background-size: cover;
-
+    position: absolute;
 }
 
 .split.left::before {
@@ -42,10 +44,13 @@ body {
 }
 
 .split.right {
+    width: 50%;
+    height: 100vh;
     right: 0;
     background: url();
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
 
 }
 
